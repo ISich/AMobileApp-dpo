@@ -21,5 +21,24 @@
     <string name="tvLat">Широта</string>
     <string name="tvLon">Долгота</string>
     <string name="err_connect">Ошибка связи, погоды не будет.</string>
+    
+    <!-- Новые строки для обработки ошибок -->
+    <string name="error_empty_location">Пожалуйста, введите название локации</string>
+    <string name="error_empty_latitude">Пожалуйста, введите широту</string>
+    <string name="error_empty_longitude">Пожалуйста, введите долготу</string>
+    <string name="error_invalid_latitude">Широта должна быть в диапазоне от -90 до 90 градусов</string>
+    <string name="error_invalid_longitude">Долгота должна быть в диапазоне от -180 до 180 градусов</string>
+    <string name="error_invalid_latitude_format">Неверный формат широты. Введите число</string>
+    <string name="error_invalid_longitude_format">Неверный формат долготы. Введите число</string>
+    <string name="error_network">Ошибка сети. Проверьте подключение к интернету</string>
+    <string name="error_api">Ошибка при получении данных с сервера</string>
+    <string name="error_unknown">Произошла неизвестная ошибка</string>
+    <string name="empty_cities_list">Список городов пуст. Добавьте город, нажав на кнопку \'Добавить\'</string>
+    <string name="delete_confirmation_title">Подтверждение удаления</string>
+    <string name="delete_confirmation_message">Вы действительно хотите удалить все города?</string>
+    <string name="delete_yes">Да</string>
+    <string name="delete_cancel">Отмена</string>
+    <string name="delete_success">Все города удалены</string>
+    <string name="list_already_empty">Список городов уже пуст</string>
 
 </resources>
